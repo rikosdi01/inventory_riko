@@ -31,7 +31,7 @@ class _MyDrawerState extends State<MyDrawer> {
                         "SDI 01",
                         style: TextStyle(
                             color: Colors.white,
-                            fontSize: 36,
+                            fontSize: 28,
                             fontWeight: FontWeight.bold),
                       ),
                       const SizedBox(
@@ -41,18 +41,9 @@ class _MyDrawerState extends State<MyDrawer> {
                         "Stok Controller BD",
                         style: TextStyle(
                             color: Colors.grey[200],
-                            fontSize: 18,
+                            fontSize: 14,
                             fontWeight: FontWeight.bold),
                       ),
-                      const SizedBox(
-                        height: 30,
-                      ),
-                      TextButton(
-                          onPressed: () {},
-                          child: const Text(
-                            "View Profile",
-                            style: TextStyle(color: Colors.white, fontSize: 14),
-                          ))
                     ],
                   ),
                 ],
